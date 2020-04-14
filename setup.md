@@ -16,3 +16,8 @@ network:
 ```
 $ sudo netplan apply
 ```
+
+## user directories name
+```shell
+LANG=C xdg-user-dirs-update
+```
