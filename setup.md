@@ -1,5 +1,5 @@
 ## static IP address
-add the following lines to /etc/netplan/50-cloud-init.yaml
+add the following lines to `/etc/netplan/50-cloud-init.yaml`
 
 ```
 network:
@@ -13,8 +13,8 @@ network:
               search: []
     version: 2
 ```
-```
-$ sudo netplan apply
+```shell
+sudo netplan apply
 ```
 
 ## user directories name
