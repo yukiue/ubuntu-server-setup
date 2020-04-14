@@ -21,3 +21,13 @@ sudo netplan apply
 ```shell
 LANG=C xdg-user-dirs-update
 ```
+
+## Regolith Linux
+[Regolith Linux](https://regolith-linux.org/)
+
+
+add the Regolith PPA to your existing Ubuntu system and install the regolith-desktop package with the following terminal commands
+```shell
+sudo add-apt-repository ppa:regolith-linux/release
+sudo apt install regolith-desktop
+```
